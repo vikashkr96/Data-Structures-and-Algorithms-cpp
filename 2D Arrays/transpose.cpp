@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-
+// only for sq. matrices....
 vector<vector<int>> transpose(vector<vector<int>>& matrix, int n, int m){
     for(int i =0; i < n ; i++){
         for(int j = i+1; j < m; j++){
@@ -29,4 +29,5 @@ int main(){
     }
 
     return 0;
+
 }
