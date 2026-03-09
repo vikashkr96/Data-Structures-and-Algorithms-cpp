@@ -6,7 +6,7 @@ void toUpper(char word[] , int n ){
     n = strlen(word);
     for(int i = 0; i < n ; i++){
         char ch = word[i];
-        if(ch>= 'A' && ch <= 'Z'){   // upper case 
+        if(ch>= 'A' && ch <= 'Z'){   // upper case then do nothing
             continue;
         }else{                    // lower case 
             word[i] = ch - 'a' + 'A';
