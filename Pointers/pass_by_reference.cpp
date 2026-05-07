@@ -11,6 +11,6 @@ int main(){
     int a = 10;
     changeA(&a); 
 
-    cout<<"inside main func. : "<< a <<endl;  // 20
+    cout<<"inside main function: "<< a <<endl;  // 20
     return 0;
 }
