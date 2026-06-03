@@ -20,7 +20,7 @@ void inc(int n){
 int main(){
     int n =50;
     dec(n);
-    cout<<endl<<endl;
+    cout<<endl;
     inc(n);
     return 0;
 }
